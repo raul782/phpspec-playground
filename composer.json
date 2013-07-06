@@ -1,0 +1,45 @@
+{
+    "name": "d4m/phpspec-playground",
+    "type": "library",
+    "description": "PhpSpec Playground",
+    "keywords": ["bdd", "phpspec"],
+    "license": "MIT",
+    "homepage": "http://www.dev4media.pe",
+    "authors":  [
+        {
+            "name":     "Dev4Media",
+            "homepage": "http://www.dev4media.pe"
+        },
+        {
+            "name":     "Raul Rodriguez",
+            "email":    "raulrodriguez782@gmail.com"
+
+        }
+    ],
+
+    "require":      {
+        "php":  ">=5.3.0"
+    },
+
+    "require-dev":  {
+        "phpspec/phpspec": "2.0.*@dev"
+    },
+
+    "autoload":     {
+        "psr-0":    {   "D4m":   "src/"  }
+    },
+
+    "extra":    {
+        "branch-alias": {
+            "dev-master":   "1.0.x-dev"
+        }
+    },
+
+    "config": {
+        "bin-dir": "bin"
+    },
+
+    "bin": ["bin/phpspec"],
+
+    "minimum-stability": "dev"
+}
